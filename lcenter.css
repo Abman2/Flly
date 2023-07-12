@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Arboria-Book";
+    src: url("./Arboria-Book.ttf");}
+    @font-face {
+      font-family: "Arboria-Medium";
+      src: url("./Arboria-Medium.ttf");}
+      .arb-font {
+        font-family: "Arboria-Medium" !important;
+      }
+      .art-font {
+        font-family: "Arboria-Book" !important;
+      }
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        .site-dark-color {
+          color: #1d305d !important;
+        }
+        
+        .nav-link {
+          color: #1d305d !important;
+        }
+        
+        .btn-outline-custom-1 {
+          color: #1d305d;
+          border-color: #1d305d;
+        }
+        
+        .btn-outline-custom-1:hover {
+          color: #fff;
+          background-color: #1d305d;
+          border-color: #1d305d;
+        }
+        
+        .navbar-brand {
+          width: 230px;
+        }
+        
+        .custom-btn-setting {
+          border-radius: 10px;
+        }
+        
+        .flex-gap > div {
+          margin: 5px;
+        }
+        
+        .light-1 {
+          color: #94a2b3;
+        }
+        /* NAV AND HERO PAGE */
+        .background-layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            180deg,
+            #e5efff 0%,
+            rgba(229, 239, 255, 0.262661) 83.7%,
+            rgba(229, 239, 255, 0) 100%
+          );
+          z-index: -99;
+        }
+        #section-1 {
+          background-image: url("images/Vector1.png");
+          background-size: 50%;
+          background-position: top right;
+          background-repeat: no-repeat;
+        }
+        
+        .hero-side-image {
+          width: 100%;
+        }
+      
+        /* MORE REASONS TO CHOOSE */
+        #section-2 {
+          color: white;
+          position: relative;
+          background: #0d4073;
+          box-shadow: 0px -20px 0px 0px rgba(13, 64, 115, 0.35);
+          -webkit-box-shadow: 0px -20px 0px 0px rgba(13, 64, 115, 0.35);
+          -moz-box-shadow: 0px -20px 0px 0px rgba(13, 64, 115, 0.35);
+          border-radius: 25px 25px 0 0;
+          z-index: 1;
+          
+        }
+        
+        #section-2 .sub-bg {
+          background: url("images/global-numbers-bg.png");
+          background-size: 100%;
+          background-position: bottom;
+          background-repeat: no-repeat;
+        }
+        
+        .center-image-section-2 {
+          width: 100%;
+         
+
+        }
+        .side-1-dotted {
+          position: relative;
+        }
+        #section-3{
+            
+            background-image: url(new/background-spot\ \(1\)\ 1.png);
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-color: rgba(255, 255, 255, 0.091);
+
+        }
+        .section-3b >div{
+          height: 60px;
+          box-shadow: 0px 2px 4px 0px #0000000D;
+          margin: auto;
+          margin-top: 20px;
+        }
+        .section-3b div div{
+          width: 25%;
+    }
+    #section-3:nth-child(3) small{
+      font-size: xx-small;
+  }
+
+        .regbutton {
+          background-image: url(new/Frame\ 1.jpg);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          background-position: center;
+          height: 250px;
+          width: 80% !important;
+          margin-bottom: 50px;
+        }
+        .regbutton p {
+          line-height: 30px;
+          width: 60%;
+          font-size: 22px !important;
+          padding-top: 50px !important ;
+        }
+        
+        .contact {
+          background-color: #ffc51726 !important;
+          box-shadow: 0px 4px 4px 0px #00000040 inset;
+        }
+        
+
+
+
+        @media only screen and (max-width: 768px) {
+
+
+
+
+          /* section 3 */
+          #section-3{
+            background-size: 80%;
+            
+          }
+         .section-3-p{
+          padding: 0 !important;
+          margin: 0 !important;
+         }
+          .section-3-hide{
+            display: none;
+          }
+          #section-3 .h5{
+            font-size: smaller;
+          }
+
+         
+         
+          .regbutton {
+            background-image: url(new/Frame\ 1.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            height: 180px;
+            width: 90% !important;
+            padding: 0 !important;
+          
+            margin-top: 30px !important;
+            margin-bottom: 0 !important;
+            position: relative;
+          }
+          .regbutton p {
+            font-size: 12px !important;
+           
+           
+            width: 60% !important;
+            line-height: 18px;
+            margin-left: 20px !important;
+          }
+          .rbutton {
+            margin-top: 0 !important;
+            width: 50% !important;
+            padding: 0 !important;
+            text-align: start;
+            height: 30% !important;
+          }
+          .rbuttondiv {
+            text-align: start !important;
+            align-items: start !important;
+            padding: 0;
+           
+          }
+          .rbutton span {
+            font-size: 8px;
+          }
+          .aaa {
+            width: 20% !important;
+            padding: 0;
+          }
+          .aaa div {
+            padding: 0 !important;
+            margin-top: -7px !important;
+            margin-left: -5px !important;
+          }
+          .aaa svg {
+            height: 9px !important;
+            width: 15px !important;
+          }
+      
+        /* BRANDS USING FLLYBY LOGISTICS */
+        .brand-features {
+          padding-bottom: 0% !important;
+          padding-top: 20px;
+          display: grid !important;
+          grid-template-columns: repeat(auto);
+        }
+        .brand-features img {
+          padding: 0 !important;
+          height: 34px !important;
+          margin: 15px 0;
+        }
+        .brand-last {
+          grid-column: 3/3 !important;
+        }
+        /* copyright */
+        .copyright {
+          font-size:11px;
+           width:100% !important;
+           margin:0 !important;
+          
+       
+       
+         }
+         .footerdiv{
+           padding: 0 20px;
+         }
+       .copydiv{
+       margin:0 !important;
+       
+       }
+ 
+ }
+         
